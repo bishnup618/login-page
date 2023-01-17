@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Heading-Container {
+  padding: auto;
+}
+
+.Heading-Container-Paragraph {
+  font-size: 14px;
+  color: #1a1a1a;
+}
+.Login-Container {
+  border-bottom: 4px solid #e70b89;
+}
+.Login-Text {
+  font: normal normal bold 16px/17px Roboto;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+.Signup-Text {
+  font: normal normal 16px/17px Roboto;
+  letter-spacing: 0px;
+  color: #1d2226;
+  opacity: 1;
+}
+.input-field {
+  background: #ffffff4d 0% 0% no-repeat padding-box;
+  border: 1px solid #1a1a1a;
+  border-radius: 26px;
+  opacity: 1;
+  width: 300px;
+  height: 50px;
+  padding-left: 30px;
+}
+.Login-Button {
+  width: 300px;
+  height: 50px;
+  color: white;
+  background: #e70b89 0% 0% no-repeat padding-box;
+  border-radius: 26px;
+  opacity: 1;
+  border: none !important;
+}
+.forgot-pass {
+  font: normal normal normal 14px/17px Roboto;
+  letter-spacing: 0px;
+  color: #e70b89;
+  opacity: 1;
+}
+.Login-with {
+  text-align: center;
+  font: normal normal normal 12px/17px Roboto;
+  letter-spacing: 0px;
+  color: #9d9d9d;
+  opacity: 1;
+}
+.icon-size {
+  font-size: large;
+  height: 50px;
+}
+.link-para {
+  font: normal normal normal 12px/17px Roboto;
+  letter-spacing: 0px;
+  color: #e70b89;
+}
+.terms-para {
+  font: normal normal normal 12px/17px Roboto;
+  letter-spacing: 0px;
+  color: #e70b89;
+  text-decoration: underline;
+}
+.para-text {
+  font: normal normal normal 12px/17px Roboto;
+  letter-spacing: 0px;
+  color: #1a1a1a;
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .gfg-div {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px) and (orientation: landscape) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px) and (-webkit-min-device-pixel-ratio: 3) {
+  .gfg-div {
+    width: 400px;
+    height: 400px;
+  }
+}
